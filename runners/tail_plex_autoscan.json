@@ -1,0 +1,22 @@
+{
+  "name": "#1 Tail - Plex Autoscan",
+  "script_path": "scripts/tail_plex_autoscan.sh",
+  "working_directory": "./conf",
+  "description": "Tail Plex Autoscan log",
+  "allowed_users": [
+    "*"
+  ],
+  "parameters": [
+    {
+      "name": "Tail or Clear",
+      "required": true,
+      "type": "list",
+      "default": "Tail Log",
+      "description": "Tail Log or Clear Log",
+      "values": [
+        "Tail Log",
+        "Clear Logs"
+      ]
+    }
+  ]
+}

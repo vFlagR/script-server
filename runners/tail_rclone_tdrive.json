@@ -1,0 +1,18 @@
+{
+  "name": "#1 Tail - Rclone Tdrive",
+  "script_path": "scripts/tail_rclone_tdrive.sh",
+  "working_directory": "./conf",
+  "parameters": [
+    {
+      "name": "Tail or Clear",
+      "required": true,
+      "type": "list",
+      "default": "Tail Log",
+      "description": "Tail Log or Clear Log",
+      "values": [
+        "Tail Log",
+        "Clear Log"
+      ]
+    }
+  ]
+}
