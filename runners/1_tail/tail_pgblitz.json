@@ -1,7 +1,7 @@
 {
   "name": "#1 Tail - PgBlitz",
-  "script_path": "scripts/tail_pgblitz.sh",
-  "working_directory": "./conf",
+  "script_path": "tail_pgblitz.sh",
+  "working_directory": "./conf/scripts/1_tail/",
   "description": "Tail PgBlitz log",
   "allowed_users": [
     "*"

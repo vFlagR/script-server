@@ -1,7 +1,7 @@
 {
   "name": "#2 Plex Autoscan - TV",
   "script_path": "scantv.sh",
-  "working_directory": "./conf/scripts/plex_autoscan/",
+  "working_directory": "./conf/scripts/2_plex_autoscan/",
   "description": "Use Plex_Autoscan to force Plex to re-scan a specific TV Show or Season",
   "parameters": [
     {

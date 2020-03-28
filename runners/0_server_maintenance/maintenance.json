@@ -1,7 +1,7 @@
 {
   "name": "#0 Server Maintenance",
-  "script_path": "scripts/maintenance.sh",
-  "working_directory": "./conf",
+  "script_path": "maintenance.sh",
+  "working_directory": "./conf/scripts/0_server_maintenance/",
   "parameters": [
     {
       "name": "Command",
